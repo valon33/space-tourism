@@ -1,0 +1,17 @@
+.NavigationContainer {
+  height: 96px;
+  width: max-content;
+  padding: 10px 30px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+.Navigation {
+  display: flex;
+  gap: 15px;
+  color: #fff;
+}
+.Navigation li {
+  font-size: 16px;
+  line-height: 19px;
+}
