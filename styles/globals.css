@@ -56,12 +56,12 @@ h4 {
 }
 h5 {
   font-size: 28px;
-  letter-spacing: 4.75;
+  letter-spacing: 4.75px;
 }
 
 p {
   font-size: 16px;
-  letter-spacing: 2.7;
+  letter-spacing: 2.7px;
 }
 
 h1 .subheading {
@@ -70,5 +70,5 @@ h1 .subheading {
 
 h2 .subheading {
   font-size: 14px;
-  letter-spacing: 2.35;
+  letter-spacing: 2.35px;
 }

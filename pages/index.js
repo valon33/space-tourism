@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import Navigation from "../components/Navigation/Navigation";
+import RoundBtn from "../components/RoundBtn/RoundBtn";
+import TopNavigation from "../components/TopNavigation/TopNavigation";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -16,11 +17,36 @@ export default function Home() {
           href="/favicon-32x32.png"
         />
       </Head>
-
       <main className={styles.Home}>
-        <Navigation />
+        <div style={{ display: "flex", justifyContent: "space-around" }}>
+          <div style={{ width: "450px" }}>
+            <h5
+              style={{
+                color: "var(--secondary-color)",
+                textTransform: "uppercase",
+              }}
+            >
+              So, you want to travel to:
+            </h5>
+            <h1
+              style={{
+                color: "#fff",
+                textTransform: "uppercase",
+                margin: "0 0 22 0",
+              }}
+            >
+              Space
+            </h1>
+            <p style={{ color: "#fff" }}>
+              Let’s face it; if you want to go to space, you might as well
+              genuinely go to outer space and not hover kind of on the edge of
+              it. Well sit back, and relax because we’ll give you a truly out of
+              this world experience!
+            </p>
+          </div>
+          <RoundBtn />
+        </div>
       </main>
-
       <footer className={styles.footer}></footer>
     </div>
   );
